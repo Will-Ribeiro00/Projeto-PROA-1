@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff7f3;
+  margin: 50px;
+  color: #333;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+  text-align: center;
+}
+
+.cabecalho h1 {
+  color: brown;
+}
+
+.cabecalho p {
+  color: chocolate;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Lista de receitas */
+
+.receitas {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Card da receita */
+
+.receita {
+  display: inline-block;
+  width: 220px;
+  background-color: #fff0d9;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+.receita a {
+  text-decoration: none;
+  color: brown;
+}
+
+.receita img {
+  width: 190px;
+  border: 3px solid brown;
+  border-radius: 10px;
+}
+
+.receita h2 {
+  font-size: 18px;
+}
+
+/* Rodapé */
+
+.rodape {
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}

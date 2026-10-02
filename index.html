@@ -1,121 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta name="description" content="Escolha uma receita de doce para preparar.">
     <meta name="keywords" content="receitas, doces, cupcake, brigadeiro, pudim, bolo de cenoura">
 
     <link rel="icon" type="image/png" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/style.css">
 
     <title>Melhores Receitas</title>
 </head>
 
-<body style="font-family: Arial, sans-serif; background-color: #fff7f3; margin: 50px; color: #333;">
+<body>
 
-    <h1 style="text-align: center; color: brown;">
-        🍰 Minhas Receitas de Doces 🧁
-    </h1>
+    <header class="cabecalho">
+        <h1>🍰 Minhas Receitas de Doces 🧁</h1>
 
-    <h2 style="text-align: center; color: chocolate">
-        Selecione a receita que você gostaria de fazer:
-    </h2>
+        <p>
+            Selecione a receita que você gostaria de fazer:
+        </p>
+    </header>
 
-    <div style="text-align: center; margin-top: 30px;">
+    <main>
+        <section class="receitas" aria-label="Lista de receitas">
 
-        <a
-            href="./pags/cupcake_recipe.html"
-            style="display: inline-block;
-                   width: 220px;
-                   background-color: #fff0d9;
-                   padding: 15px;
-                   margin: 15px;
-                   border-radius: 10px;
-                   vertical-align: top;
-                   text-decoration: none;
-                   color: brown;"
-        >
-            <img
-                src="./img/cupcake.png"
-                alt="Cupcake de chocolate"
-                title="Cupcake de chocolate"
-                style="width: 190px; border: 3px solid brown; border-radius: 10px;"
-            >
-            <br>
-            <strong style="font-size: 18px;">Cupcake de Chocolate</strong>
-        </a>
+            <article class="receita">
+                <a href="./pags/cupcake_recipe.html">
+                    <img
+                        src="./img/cupcake.png"
+                        alt="Cupcake de chocolate"
+                        title="Cupcake de chocolate"
+                    >
 
-        <a
-            href="./pags/brigadeiro_recipe.html"
-            style="display: inline-block;
-                   width: 220px;
-                   background-color: #fff0d9;
-                   padding: 15px;
-                   margin: 15px;
-                   border-radius: 10px;
-                   vertical-align: top;
-                   text-decoration: none;
-                   color: brown;"
-        >
-            <img
-                src="./img/brigadeiro.png"
-                alt="Brigadeiro gourmet"
-                title="Brigadeiro gourmet"
-                style="width: 190px; border: 3px solid brown; border-radius: 10px;"
-            >
-            <br>
-            <strong style="font-size: 18px;">Brigadeiro Gourmet</strong>
-        </a>
+                    <h2>Cupcake de Chocolate</h2>
+                </a>
+            </article>
 
-        <a
-            href="./pags/pudim_recipe.html"
-            style="display: inline-block;
-                   width: 220px;
-                   background-color: #fff0d9;
-                   padding: 15px;
-                   margin: 15px;
-                   border-radius: 10px;
-                   vertical-align: top;
-                   text-decoration: none;
-                   color: brown;"
-        >
-            <img
-                src="./img/pudim.png"
-                alt="Pudim de leite"
-                title="Pudim de leite"
-                style="width: 190px; border: 3px solid brown; border-radius: 10px;"
-            >
-            <br>
-            <strong style="font-size: 18px;">Pudim de Leite</strong>
-        </a>
+            <article class="receita">
+                <a href="./pags/brigadeiro_recipe.html">
+                    <img
+                        src="./img/brigadeiro.png"
+                        alt="Brigadeiro gourmet"
+                        title="Brigadeiro gourmet"
+                    >
 
-        <a
-            href="./pags/bolo_cenoura_recipe.html"
-            style="display: inline-block;
-                   width: 220px;
-                   background-color: #fff0d9;
-                   padding: 15px;
-                   margin: 15px;
-                   border-radius: 10px;
-                   vertical-align: top;
-                   text-decoration: none;
-                   color: brown;"
-        >
-            <img
-                src="./img/bolo-cenoura.png"
-                alt="Bolo de cenoura com cobertura de chocolate"
-                title="Bolo de cenoura"
-                style="width: 190px; border: 3px solid brown; border-radius: 10px;"
-            >
-            <br>
-            <strong style="font-size: 18px;">Bolo de Cenoura</strong>
-        </a>
-    </div>
+                    <h2>Brigadeiro Gourmet</h2>
+                </a>
+            </article>
 
-    <hr style="margin-top: 40px;">
+            <article class="receita">
+                <a href="./pags/pudim_recipe.html">
+                    <img
+                        src="./img/pudim.png"
+                        alt="Pudim de leite"
+                        title="Pudim de leite"
+                    >
 
-    <p style="text-align: center; font-size: 18px">
-        Feito com ❤️ pelo Will 🧑‍💻
-    </p>
+                    <h2>Pudim de Leite</h2>
+                </a>
+            </article>
+
+            <article class="receita">
+                <a href="./pags/bolo_cenoura_recipe.html">
+                    <img
+                        src="./img/bolo-cenoura.png"
+                        alt="Bolo de cenoura com cobertura de chocolate"
+                        title="Bolo de cenoura"
+                    >
+
+                    <h2>Bolo de Cenoura</h2>
+                </a>
+            </article>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Feito com ❤️ pelo Will 🧑‍💻</p>
+    </footer>
+
 </body>
 </html>
